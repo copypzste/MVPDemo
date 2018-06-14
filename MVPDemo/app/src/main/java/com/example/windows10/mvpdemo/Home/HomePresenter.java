@@ -1,9 +1,6 @@
-package com.example.windows10.mvpdemo.Presenter;
+package com.example.windows10.mvpdemo.Home;
 
 import com.example.windows10.mvpdemo.Model.Data;
-import com.example.windows10.mvpdemo.Model.User;
-import com.example.windows10.mvpdemo.View.IDataDetailView;
-import com.example.windows10.mvpdemo.View.IHomeView;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,11 +1,6 @@
-package com.example.windows10.mvpdemo.Presenter;
+package com.example.windows10.mvpdemo.DataDetail;
 
-import android.content.Context;
-import android.content.SharedPreferences;
-import android.widget.TextView;
-
-import com.example.windows10.mvpdemo.View.IDataDetailView;
-import com.example.windows10.mvpdemo.View.IHomeView;
+import com.example.windows10.mvpdemo.Home.IHomePresenter;
 
 
 public class DataDetailPresenter implements IDataDetailPresenter {

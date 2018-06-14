@@ -1,4 +1,4 @@
-package com.example.windows10.mvpdemo.View;
+package com.example.windows10.mvpdemo.Home;
 
 import com.example.windows10.mvpdemo.Model.Data;
 

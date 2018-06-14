@@ -1,4 +1,4 @@
-package com.example.windows10.mvpdemo.View;
+package com.example.windows10.mvpdemo.DataDetail;
 
 public interface IDataDetailView {
     void showTitle(String title);

@@ -1,8 +1,8 @@
-package com.example.windows10.mvpdemo.Presenter;
+package com.example.windows10.mvpdemo.Login;
 
+import com.example.windows10.mvpdemo.Login.ILoginPresenter;
 import com.example.windows10.mvpdemo.Model.User;
-import com.example.windows10.mvpdemo.View.IHomeView;
-import com.example.windows10.mvpdemo.View.ILoginView;
+import com.example.windows10.mvpdemo.Login.ILoginView;
 
 public class LoginPresenter implements ILoginPresenter {
     private ILoginView loginView;

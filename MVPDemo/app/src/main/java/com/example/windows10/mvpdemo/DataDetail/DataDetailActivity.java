@@ -1,4 +1,4 @@
-package com.example.windows10.mvpdemo.View;
+package com.example.windows10.mvpdemo.DataDetail;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,11 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.example.windows10.mvpdemo.Presenter.DataDetailPresenter;
-import com.example.windows10.mvpdemo.Presenter.IDataDetailPresenter;
 import com.example.windows10.mvpdemo.R;
 
-public class DataDetailActivity extends AppCompatActivity implements IDataDetailView{
+public class DataDetailActivity extends AppCompatActivity implements IDataDetailView {
     private SharedPreferences sharedPreferences;
     private IDataDetailPresenter dataDetailPresenter;
     private static final String KEY_TITLE_DATA = "TITLE_DATA";

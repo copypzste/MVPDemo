@@ -1,4 +1,4 @@
-package com.example.windows10.mvpdemo.View;
+package com.example.windows10.mvpdemo.Home;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,14 +10,12 @@ import android.widget.TextView;
 
 import com.example.windows10.mvpdemo.Adapter.DataAdapter;
 import com.example.windows10.mvpdemo.Model.Data;
-import com.example.windows10.mvpdemo.Presenter.HomePresenter;
-import com.example.windows10.mvpdemo.Presenter.IDataDetailPresenter;
-import com.example.windows10.mvpdemo.Presenter.IHomePresenter;
 import com.example.windows10.mvpdemo.R;
+import com.example.windows10.mvpdemo.DataDetail.DataDetailActivity;
 
 import java.util.List;
 
-public class HomeActivity extends AppCompatActivity implements IHomeView{
+public class HomeActivity extends AppCompatActivity implements IHomeView {
     private TextView tv_username;
     private DataAdapter dataAdapter;
     private RecyclerView recyclerView;
